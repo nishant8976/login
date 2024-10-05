@@ -1,0 +1,85 @@
+body {
+    display: flex;
+    justify-content: left; /* Center horizontally */
+    align-items: center;     /* Center vertically */
+    height: 100vh;           /* Full viewport height */
+    margin-left:200px;
+    background-image: url('pexels-stywo-1054218.jpg'); 
+    width:auto;
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+
+.login {
+    border: 2px;
+    width: 350px;
+    height: 440px;
+    text-align: center;
+    background-color: rgba(50, 50, 50, 0.9); 
+    padding: 20px;               
+    border-radius: 17px;         
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); 
+}
+
+/* Center the form and its elements */
+form {
+    display: flex;
+    flex-direction: column;  /* Stack input and buttons vertically */
+    align-items: center;     /* Center the input and button horizontally */
+}
+
+p {
+    margin: 0;
+}
+
+input {
+    width: 80%;              /* Set input width (adjust as needed) */
+    padding: 10px;           /* Add some padding for better UI */
+    margin-bottom: 10px; 
+    margin-top:15px;    /* Space between input fields */
+    border-radius: 10px;      /* Rounded corners for input */
+   border:0.5px solid rgb(212, 212, 212);  /* Border for the input */
+    background-color: rgba(102, 99, 99, 0.9); /* Dark background for input */
+    box-sizing: border-box;  /* Ensure padding is included in the width */
+}
+
+button {
+    width: 80%;              /* Set button width to match input width */
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+     background-color: red;; /* Button background color */
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #7b0404; /* Darker button on hover */
+}
+.registration_button{
+    background-color:rgb(82, 192, 247);
+    font-size:13px;
+    padding:13px;
+    margin-top:3px;
+}
+.registration_button:hover{
+    background-color:rgb(6, 97, 143);
+}
+
+p{
+    color:white;
+    font-size:16px;
+    font-family:Roboto;
+}
+h3{
+    color:white;
+    font-family:Roboto;
+    font-size:22px;
+}
+
+input::placeholder{
+    font-size:14px;
+    font-weight:bold;
+}
